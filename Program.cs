@@ -73,7 +73,7 @@ void task_68()
      Random rand = new Random();
     int M = rand.Next(3);
     int N = rand.Next(3);
-    Console.WriteLine($"Функция Аккермана для чисел A({M},{N}) = {AckFunction(M, N)}"); 
+    Console.WriteLine($"Функция Аккермана для случайных чисел ({M},{N}) = {AckFunction(M, N)}"); 
 }
     
 int AckFunction(int M, int N)
